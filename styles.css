@@ -40,7 +40,7 @@ body {
   .peito {
     width: 70px;
     height: 55px;
-    background-color: #6491cb;
+    background: linear-gradient(to bottom, #6e9fe0 0%, #204b52 100%);
     position: absolute;
     top: 110px;
     left: 65px;
@@ -49,7 +49,7 @@ body {
   .barriga {
     width: 70px;
     height: 55px;
-    background-color: #d60471;
+    background-color: #204b52a8;
     position: absolute;
     top: 158px;
     left: 65px;
@@ -109,7 +109,7 @@ body {
   .coxa-direita {
     width: 20px;
     height: 60px;
-    background-color: #13bd6e;
+    background-color: #1e4611;
     position: absolute;
     top: 210px;
     left: 65px;
@@ -127,7 +127,7 @@ body {
     display: block;
     width: 20px;
     height: 60px;
-    background-color: #45bb1d;
+    background-color: #1e4611;
     position: absolute;
     top: 210px;
     right: 65px;
@@ -142,3 +142,41 @@ body {
     top: 270px;
     right: 65px;
   }
+  .mao-esquerda, .mao-direita {
+    width: 20px;
+    height: 20px;
+    background-color: #c0ff37;
+    border-radius: 10px; 
+    position: absolute;
+  }
+  
+  .mao-esquerda {
+    height: 30px;
+    top: 200px; 
+    right: 30px; 
+  }
+  
+  .mao-direita {
+    height: 30px;
+    top: 200px; 
+    left: 30px; 
+  }
+  
+  .pe-esquerdo, .pe-direito {
+    width: 25px;
+    height: 20px;
+    background-color: #d90e0e;
+    border-radius: 5px;
+    position: absolute;
+  }
+  
+  .pe-esquerdo {
+    top: 370px; 
+    right: 65px; 
+  }
+  
+  .pe-direito {
+    top: 370px; 
+    left: 65px; 
+  }
+  
