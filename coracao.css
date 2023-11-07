@@ -1,0 +1,24 @@
+.coracao {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 120px; 
+    left: 105px; 
+    border-radius: 50%;
+    animation: batimento 1s infinite;
+    z-index: 11;
+  }
+  
+  @keyframes batimento {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); 
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
