@@ -1,0 +1,147 @@
+.peito::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .peito:hover::before {
+    background-color: transparent; 
+  }
+  .barriga::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .barriga:hover::before {
+    background-color: transparent; 
+  }
+  .ombro::before {
+    content: '';
+    width: 100%; 
+    height: 100%; 
+    left: -75px;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent; 
+    border-bottom: 40px solid green; 
+    position: absolute;
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .ombro:hover::before {
+    background-color: transparent; 
+    border-bottom: 40px solid transparent; 
+  }
+  .braco-esquerdo::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .braco-esquerdo:hover::before {
+    background-color: transparent; 
+  }
+  .antebraco-esquerdo::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .antebraco-esquerdo:hover::before {
+    background-color: transparent; 
+  }
+  .braco-direito::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .braco-direito:hover::before {
+    background-color: transparent; 
+  }
+  .antebraco-direito::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .antebraco-direito:hover::before {
+    background-color: transparent; 
+  }
+  .coxa-direita::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .coxa-direita:hover::before {
+    background-color: transparent; 
+  }
+  .perna-direita::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .perna-direita:hover::before {
+    background-color: transparent; 
+  }
+  .coxa-esquerda::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .coxa-esquerda:hover::before {
+    background-color: transparent; 
+  }
+  .perna-esquerda::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: green; 
+    z-index: 15; 
+    transition: background-color 0.5s ease; 
+  }
+  
+  .perna-esquerda:hover::before {
+    background-color: transparent; 
+  }
